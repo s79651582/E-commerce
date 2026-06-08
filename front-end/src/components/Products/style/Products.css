@@ -1,0 +1,64 @@
+/* ProductCard */
+
+.style-card{
+    width: 100%;
+    height: 345px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 2px 0 rgba(151,151,151,0.5);
+}
+
+.link-style{
+    text-decoration: none;
+}
+
+.card-img-style{
+    height: 228px; 
+    width: 100%;
+}
+
+.favof-style{
+    height: 24px;
+    width: 26px;
+}
+
+.rate-style{
+    height: 16px;
+    width: 16px;
+}
+
+
+.card-title {
+  color: #555550;
+  font-family: Almarai;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-align: right;
+}
+.card-price {
+  color: #272727;
+  font-family: Almarai;
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+.card-currency {
+  color: #555550;
+  font-family: Almarai;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.card-rate {
+  color: #ffc107;
+  font-family: Almarai;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+/* end ProductCard */

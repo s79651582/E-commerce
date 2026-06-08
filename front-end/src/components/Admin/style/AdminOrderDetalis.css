@@ -1,0 +1,15 @@
+.client-details{
+    color: #555550;
+    font-family: Almarai;
+    font-size: 16px;
+}
+
+.client-name{
+    color: #979797;
+    font-family: Almarai;
+    font-size: 16px;
+}
+
+.final-price{
+    padding-bottom: 10px;
+}

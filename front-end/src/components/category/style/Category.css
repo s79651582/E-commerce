@@ -1,0 +1,34 @@
+/* category header */
+.cat-header {
+  height: 100%;
+  background-color: white;
+}
+
+.cat-text-header {
+  color: #979797;
+  font-family: "Almarai";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 23px;
+  padding-top: 10px;
+  margin-left: 17px;
+  cursor: pointer;
+}
+.cat-text-header:hover {
+  color: #555550;
+}
+
+/* end categoery header */
+
+.custom-spinner {
+  width: 150px;
+  height: 150px;
+}
+
+.container-spinner{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

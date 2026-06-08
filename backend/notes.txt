@@ -1,0 +1,22 @@
+install:
+npm init -y
+npm install
+npm i express --save
+npm i -g nodemon 
+npm i dotenv    // after create file.env
+npm i morgan    // showing requests and responses on this server in terminal during server running
+npm i mongoose  // to connect backend with mongodb
+npm install mongodb
+npm i slugify
+npm install --save express-async-handler
+npm install express-validator
+npm i multer       // used for uploading files as image
+npm install uuid   // generate unique id
+npm i sharp        // provide memory buffer to save image after processing
+npm install bcryptjs   // to hash password
+npm i jsonwebtoken
+npm i nodemailer
+npm install cors  // connect front-end to backend
+
+
+links:

@@ -1,0 +1,145 @@
+/* products details page */
+
+/* gallary card */
+.product-gallary-card {
+  height: 575px !important;
+  width: 460px;
+  border-radius: 29px;
+  background-color: #ffffff;
+  justify-content: center;
+}
+
+/* كونتينر الجزء العلوي من الجلاري */
+.image-gallery-swipe{
+  padding: 15px;
+  height: 450px !important;
+  width: 430px !important;
+  border-radius: 29px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* كونتينر الصورة الكبيرة */
+.image-gallery-slide{
+  background-color: #ffffff;
+}
+
+/* حجم الصورة الكبيرة */
+.image-gallery-slide img {
+  height: 400px;
+  width: 300px !important;
+  object-fit: contain; /* أو cover */
+}
+
+/* الكونتينر بتاع الـ thumbnails */
+.image-gallery-thumbnails {
+  margin-top: 15px;
+}
+
+/* كل Thumbnail لوحده */
+.image-gallery-thumbnail {
+  margin: 5px;
+  width: 70px;
+  background-color: #ffffff !important;
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+
+/* صورة الـ thumbnail نفسها */
+.image-gallery-thumbnail img {
+  height: 55px !important;
+  width: 45px !important;
+  object-fit: cover;
+}
+
+/* الـ Thumbnail النشطة (المختارة) */
+.image-gallery-thumbnail.active {
+  border: 2px solid #000000 !important;
+}
+
+/* end gallary card */
+
+
+.cat-text {
+  color: #979797;
+  font-family: "Almarai";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 23px;
+  text-align: right;
+}
+
+.cat-title {
+  color: #555550;
+  font-family: Almarai;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: right;
+}
+
+.cat-rate {
+  margin-right: 10px;
+  padding-top: 10px !important;
+  color: #ffc107;
+  font-family: "Almarai";
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: right;
+}
+
+.barnd-text {
+  color: #555550;
+  font-family: "Almarai";
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.color {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.product-description {
+  color: #555550;
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 26px;
+  text-align: right;
+}
+.product-price {
+  height: 46px;
+  width: 150px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 9px;
+  color: #555550;
+  font-family: "Almarai";
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+.product-cart-add {
+  height: 45px;
+  border-radius: 9px;
+  border: none;
+  background-color: #272727;
+  color: #ffffff;
+  font-family: "Almarai";
+  font-size: 14px;
+  font-weight: normal;
+  cursor: pointer;
+  text-align: center;
+}
+.product-cart-add:hover {
+  color: #bdbaba !important;
+}
+/* end products page */

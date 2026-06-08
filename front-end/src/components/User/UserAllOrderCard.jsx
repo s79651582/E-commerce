@@ -1,0 +1,33 @@
+import React from 'react'
+import { Row, Col } from 'react-bootstrap'
+import mobile from '../../assets/phone1.jpg'
+import'../category/style/Category.css'
+import '../Rate/style/style.css'
+
+
+const UserAllOrderCard = () => {
+
+    return (
+        <div>
+            <Row className="d-flex mb-2">
+                <Col xs="3" md="2" className="d-flex justify-content-start">
+                    <img  src={mobile} alt=""  className='img-card' />
+                </Col>
+                <Col xs="8" md="6">
+                    <div className="d-inline pt-2 cat-title">
+                        آيفون XR بذاكرة سعة 128 جيجابايت ويدعم تقنية 4G LTE مع تطبيق فيس
+                        تايم (برودكت) أحمر
+                    </div>
+                    <div className="d-inline pt-2 cat-rate me-2">4.5</div>
+                    <div className="rate-count  d-inline p-1 pt-2">(160 تقييم)</div>
+                    <div className="mt-3">
+                        <div className="cat-text  d-inline">الكميه</div>
+                        <input className="mx-2  input-Quantity"  type="number" />
+                    </div>
+                </Col>
+            </Row>
+        </div>
+    )
+}
+
+export default UserAllOrderCard;
